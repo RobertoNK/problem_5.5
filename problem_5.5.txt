@@ -1,0 +1,24 @@
+Problem 5 Chapter 5
+Book: Java programming from the beginning 
+
+Make the following changes to the PhoneDirectory program(
+section 5.8):
+
+(a) Add a command named d (delete). It will prompt the user
+for a name and then delete all phone records that match the
+name. (As with the f command, partial matches are allowed)
+
+(b)Set the initial size to the records array to 1, instead of
+100, and have the program double the size of the array each
+time it becomes full
+
+(c) Modify the f command so that it lines up names and numbers in
+colums:
+
+Abernathy, C		779-7559
+Abbot, C Michael	776-5188
+
+Allow 25 characters for the name: Hint: Create a String
+containing 25 spaces. Use the substring method to select a
+portion of the string to display between the name and
+number.
